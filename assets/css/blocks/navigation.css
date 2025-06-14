@@ -1,0 +1,6 @@
+header nav.wp-block-navigation {
+    background-color: inherit;
+}
+header nav.wp-block-navigation .wp-block-navigation__submenu-container {
+    background-color: var(--wp--preset--color--charcoal);
+}
