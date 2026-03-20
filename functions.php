@@ -33,6 +33,26 @@ function extend_register_enqueue_assets() {
 }
 add_action( 'init', 'extend_register_enqueue_assets' );
 
+/**
+ * Enqueue custom block styles for kate-and-toms namespace blocks
+ */
+function katomswold_enqueue_custom_block_styles() {
+	// Register additional styles for icon-button block (loaded after plugin styles)
+	wp_register_style(
+		'kate-and-toms-icon-button-theme-style',
+		get_template_directory_uri() . '/assets/css/blocks/icon-button.css',
+		array('kate-and-toms-icon-button-style'), // Dependency on plugin's base styles
+		filemtime( get_template_directory() . '/assets/css/blocks/icon-button.css' )
+	);
+
+	wp_enqueue_block_style(
+		'kate-and-toms/icon-button',
+		array(
+			'handle' => 'kate-and-toms-icon-button-theme-style'
+		)
+	);
+}
+add_action( 'init', 'katomswold_enqueue_custom_block_styles' );
 
 add_image_size( 'square', 280, 280, true );
 
@@ -44,3 +64,76 @@ function katomswold_theme_support() {
     add_theme_support( 'block-template-parts' );
 }
 add_action( 'after_setup_theme', 'katomswold_theme_support' );
+
+
+function katomswold_global_scripts() {
+    // Register the script
+    wp_enqueue_script(
+        'global',                                   // Handle
+        get_stylesheet_directory_uri() . '/js/global.js', // Path to your JS file
+        array(),                                           // Dependencies
+        '1.0',                                             // Version
+        true                                               // Load in footer
+    );
+
+    // Enqueue the theme's style.css for global control and mobile overrides use sparingly
+    wp_enqueue_style(
+        'katomswold-style',
+        get_parent_theme_file_uri( 'style.css' ),
+        array(),
+        wp_get_theme()->get( 'Version' )
+    );
+}
+add_action( 'wp_enqueue_scripts', 'katomswold_global_scripts' );
+
+/**
+ * Register custom block styles
+ * Uses the Custom_Block_Styles class for simplified registration
+ */
+require_once get_template_directory() . '/custom-block-styles/class-custom-block-styles.php';
+
+$custom_block_styles = array(
+	array(
+		'block' => 'core/paragraph',
+		'name'  => 'hide-paragraph-mobile',
+		'label' => 'Hide on mobile',
+	),
+    array(
+        'block' => 'core/navigation',
+        'name'  => 'hide-navigation-desktop',
+        'label' => 'Hide on desktop',
+    ),
+	array(
+		'block' => 'core/navigation',
+		'name'  => 'hide-navigation-mobile',
+		'label' => 'Hide on mobile',
+	),
+	array(
+		'block' => 'core/column',
+		'name'  => 'hide-column-mobile',
+		'label' => 'Hide on mobile',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'center-group-mobile',
+		'label' => 'Center on mobile',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'hide-group-mobile',
+		'label' => 'Hide on mobile',
+	),
+	array(
+		'block' => 'core/image',
+		'name'  => 'center-mobile',
+		'label' => 'Center on mobile',
+	),
+	array(
+		'block' => 'core/image',
+		'name'  => 'hide-mobile',
+		'label' => 'Hide on mobile',
+	),
+);
+
+// Initialize custom block styles - CSS files loaded from /assets/css/styles/
+new Custom_Block_Styles( $custom_block_styles, '/assets/css/styles/' );

@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+    .is-style-center-mobile {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        text-align: -webkit-center;
+        align-items: center;
+    }
+}

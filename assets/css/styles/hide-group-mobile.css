@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+    .is-style-hide-group-mobile {
+        display: none !important;
+    }
+}
+    

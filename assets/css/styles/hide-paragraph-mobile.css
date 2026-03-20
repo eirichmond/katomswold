@@ -1,0 +1,5 @@
+@media (max-width: 480px) {
+    p.is-style-hide-paragraph-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+@media ( max-width:480px ) {
+    .is-style-center-group-mobile {
+        flex-direction: column;
+        align-items: center !important;
+    }
+}
+    

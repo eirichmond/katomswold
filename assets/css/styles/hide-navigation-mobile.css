@@ -1,0 +1,6 @@
+@media (max-width: 1100px) {
+    .is-style-hide-navigation-mobile {
+        display: none !important;
+    }
+}
+    

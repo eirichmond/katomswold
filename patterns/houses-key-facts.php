@@ -12,53 +12,54 @@
 <!-- /wp:heading -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-<div class="wp-block-columns alignwide has-small-font-size"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-bottom:0"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">General Information</p>
+<div class="wp-block-columns alignwide has-small-font-size">
+    
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-bottom:0">
+    
+<!-- wp:paragraph {"style":{"border":{"bottom":{"color":"var:preset|color|palegrey","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|40"}}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--palegrey);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--40)">General Information</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-
+    
 <!-- wp:paragraph -->
 <p>[keyfacts_1]</p>
-<!-- /wp:paragraph -->
-
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
-<div class="wp-block-column"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Features &amp; Things To Do</p>
+<div class="wp-block-column">
+    
+<!-- wp:paragraph {"style":{"border":{"bottom":{"color":"var:preset|color|palegrey","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|40"}}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--palegrey);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--40)">Features &amp; Things To Do</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-
+    
 <!-- wp:paragraph -->
 <p>[keyfacts_2]</p>
-<!-- /wp:paragraph -->
-
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
-<div class="wp-block-column"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">About your Booking</p>
+<div class="wp-block-column">
+    
+<!-- wp:paragraph {"style":{"border":{"bottom":{"color":"var:preset|color|palegrey","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|40"}}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--palegrey);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--40)">About your Booking</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-
+    
 <!-- wp:paragraph -->
 <p>[keyfacts_3]</p>
-<!-- /wp:paragraph -->
-
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
- 

@@ -11,7 +11,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"},"href":"#"} -->
 <div class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="[image0]" alt="[image0alt]" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
@@ -29,7 +29,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"},"href":"#"} -->
 <div class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="[image1]" alt="[image1alt]" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
@@ -49,7 +49,7 @@
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"},"href":"#"} -->
 <div class="wp-block-group"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="[image2]" alt="[image2alt]"/></figure>
 <!-- /wp:image -->
@@ -69,7 +69,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"},"href":"#"} -->
 <div class="wp-block-group"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="[image3]" alt="[image3alt]" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
@@ -87,3 +87,4 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
+ 

@@ -2,5 +2,80 @@ header nav.wp-block-navigation {
     background-color: inherit;
 }
 header nav.wp-block-navigation .wp-block-navigation__submenu-container {
-    background-color: var(--wp--preset--color--charcoal);
+    background-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--charcoal);
+}
+
+header nav.wp-block-navigation #modal-2-content ul li .wp-block-navigation-submenu {
+    background-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--charcoal);
+}
+
+
+header nav.wp-block-navigation #modal-4-content .wp-block-navigation__submenu-container {
+    color: var(--wp--preset--color--charcoal) !important;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+header nav.wp-block-navigation
+.wp-block-navigation-item>a.wp-block-navigation-item__content {
+    padding: 22px var(--wp--preset--spacing--40);
+}
+
+header nav.wp-block-navigation
+.wp-block-navigation-item
+.wp-block-navigation__submenu-container
+.wp-block-navigation-item
+.wp-block-navigation-item__content {
+    padding: 8px var(--wp--preset--spacing--40);
+}
+
+.wp-block-navigation .wp-block-navigation__submenu-container {
+    text-transform: capitalize;
+}
+
+.wp-block-navigation
+.wp-block-navigation-submenu
+.wp-block-navigation__submenu-icon
+{
+    display: none;
+}
+
+.wp-block-navigation
+.wp-block-navigation-submenu
+.wp-block-navigation-submenu
+.wp-block-navigation__submenu-icon {
+    display: inline;
+}
+
+
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.86) 0%, rgba(255, 255, 255, 0.86) 100%);
+    border:none;
+}
+
+
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: block !important;
+}
+
+.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none !important;
+}
+
+@media (min-width: 1101px) { /** breakpoint for desktop, perhaps this should be set in the theme options */
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none !important;
+        ;
+    }
+
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: block !important;
+    }
+
+
+    .wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon {
+        margin-right: 1em;
+    }
 }

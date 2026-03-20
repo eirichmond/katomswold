@@ -1,0 +1,5 @@
+@media (min-width: 1101px) {
+    .is-style-hide-navigation-desktop {
+        display: none !important;
+    }
+}

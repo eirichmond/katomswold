@@ -48,7 +48,7 @@
 <h2 class="wp-block-heading has-small-font-size">kate &amp; tom's</h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":147952,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ref":140832,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -56,7 +56,7 @@
 <h2 class="wp-block-heading has-small-font-size">destination</h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":147947,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ref":140827,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -64,7 +64,7 @@
 <h2 class="wp-block-heading has-small-font-size">join us</h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":147949,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ref":140829,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -72,7 +72,7 @@
 <h2 class="wp-block-heading has-small-font-size">get in touch</h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":147948,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"ref":140828,"textColor":"linkvisit","overlayMenu":"never","style":{"spacing":{"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->

@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+    .is-style-hide-column-mobile {
+        display: none !important;
+    }
+}
+    

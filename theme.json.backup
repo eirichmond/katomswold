@@ -166,31 +166,13 @@
 					"slug": "palegrey"
 				},
 				{
-					"color": "#e9e9e9",
-					"name": "Alt Pale Grey",
-					"slug": "altpalegrey"
-				},
-				{
 					"color": "#333",
 					"name": "Light Grey",
 					"slug": "lightgrey"
-				},
-				{
-					"color": "#999999",
-					"name": "Focus Grey",
-					"slug": "focusgrey"
-				},
-				{
-					"color": "#7e7e7e;",
-					"name": "Autocomplete Grey",
-					"slug": "autocompletegrey"
 				}
 			]
 		},
 		"custom": {
-			"layout": {
-				"tableWidth": "811px"
-			},
 			"spacing": {
 				"large": "clamp(4rem, 10vw, 8rem)",
 				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
@@ -321,6 +303,23 @@
 	},
 	"styles": {
 		"blocks": {
+			"kate-and-toms/icon-button": {
+				"border": {
+					"radius": "3px"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "5px",
+						"left": "0px",
+						"right": "0px",
+						"top": "5px"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"textTransform": "none"
+				}
+			},
 			"core/button": {
 				"border": {
 					"radius": "3px"
@@ -365,23 +364,6 @@
 						"right": "0",
 						"top": "0"
 					}
-				}
-			},
-			"kate-and-toms/icon-button": {
-				"border": {
-					"radius": "3px"
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "5px",
-						"left": "0px",
-						"right": "0px",
-						"top": "5px"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"textTransform": "none"
 				}
 			}
 		},

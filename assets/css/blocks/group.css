@@ -1,0 +1,12 @@
+.wp-block-group.pattern-image-set-fill .wp-block-image {
+    height: 187px;
+    overflow: hidden;
+}
+
+.wp-block-group.pattern-image-set-fill .wp-block-image img {
+    aspect-ratio: auto !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+}

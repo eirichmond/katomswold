@@ -6,10 +6,11 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"categories":["banner"],"patternName":"katomswold/image-set-fill","name":"Image Set Fill"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"colorfifteen","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-colorfifteen-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
+<!-- wp:group {"metadata":{"categories":["banner"],"patternName":"katomswold/image-set-fill","name":"Image Set Fill"},"align":"full","className":"pattern-image-set-fill","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"colorfifteen","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull pattern-image-set-fill has-colorfifteen-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"24%"} -->
+<div class="wp-block-column" style="flex-basis:24%"><!-- wp:group {"layout":{"type":"constrained"},"href":"#"} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -22,10 +23,12 @@
 <p class="has-text-align-left has-white-color has-text-color has-link-color has-small-font-size">bodybodybody</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
+<!-- wp:column {"width":"24%"} -->
+<div class="wp-block-column" style="flex-basis:24%"><!-- wp:group {"layout":{"type":"constrained"},"href":"##"} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -38,10 +41,12 @@
 <p class="has-text-align-left has-white-color has-text-color has-link-color has-small-font-size">bodybodybody</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
+<!-- wp:column {"width":"24%"} -->
+<div class="wp-block-column" style="flex-basis:24%"><!-- wp:group {"layout":{"type":"constrained"},"href":"###"} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -54,10 +59,12 @@
 <p class="has-text-align-left has-white-color has-text-color has-link-color has-small-font-size">bodybodybody</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
+<!-- wp:column {"width":"24%"} -->
+<div class="wp-block-column" style="flex-basis:24%"><!-- wp:group {"layout":{"type":"constrained"},"href":"####"} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized"><img src="" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -70,8 +77,7 @@
 <p class="has-text-align-left has-white-color has-text-color has-link-color has-small-font-size">bodybodybody</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-</div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
