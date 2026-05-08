@@ -14,10 +14,11 @@ Text Domain: katomswold
 Tags: 
 */
 
+footer a:link,
 footer a:visited,
 footer a:hover,
 footer a:active,
-footer a:link {
-    color: #000;
+footer a:focus {
+    color: var(--wp--preset--color--linkvisit);
     text-decoration: none;
 }
