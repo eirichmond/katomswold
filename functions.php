@@ -107,6 +107,16 @@ $custom_block_styles = array(
 		'name'  => 'hide-paragraph-mobile',
 		'label' => 'Hide on mobile',
 	),
+	array(
+		'block' => 'core/paragraph',
+		'name'  => 'center-paragraph-mobile',
+		'label' => 'Center on mobile',
+	),
+	array(
+		'block' => 'core/heading',
+		'name'  => 'center-heading-mobile',
+		'label' => 'Center on mobile',
+	),
     array(
         'block' => 'core/navigation',
         'name'  => 'hide-navigation-desktop',
