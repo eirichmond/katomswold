@@ -1,0 +1,9 @@
+@media ( max-width:782px ) {
+    .is-style-gallery-right {
+        .wp-block-columns {
+            .wp-block-column:is(:nth-child(2)) {
+                display: none;
+            }
+        }
+    }
+}

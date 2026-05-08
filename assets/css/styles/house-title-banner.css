@@ -1,0 +1,22 @@
+/* Mobile overrides */
+@media ( max-width:782px ) {
+    .is-style-house-title-banner {
+        h2 {
+            text-align: center;
+        }
+        .wp-block-group {
+            justify-content: center;
+            gap: 1em;
+            :nth-child(3n+1) {
+                gap: 0.5em;
+            }
+        }
+        .wp-block-buttons {
+            justify-content: center;
+            .wp-block-button {
+                width: 85px;
+            }
+        }
+
+    }
+}

@@ -76,6 +76,15 @@ function katomswold_global_scripts() {
         true                                               // Load in footer
     );
 
+    wp_enqueue_script(
+        'burger-menu',
+        get_stylesheet_directory_uri() . '/js/burger-menu.js',
+        [],
+        null,
+        true  // load in footer
+    );
+
+
     // Enqueue the theme's style.css for global control and mobile overrides use sparingly
     wp_enqueue_style(
         'katomswold-style',
@@ -112,6 +121,31 @@ $custom_block_styles = array(
 		'block' => 'core/column',
 		'name'  => 'hide-column-mobile',
 		'label' => 'Hide on mobile',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'house-title-banner',
+		'label' => 'House Title Banner',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'house-title-banner-sub-page',
+		'label' => 'House Title Banner Sub Page',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'gallery-fourimage',
+		'label' => 'Gallery Four Image',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'gallery-left',
+		'label' => 'Gallery Left',
+	),
+	array(
+		'block' => 'core/group',
+		'name'  => 'gallery-right',
+		'label' => 'Gallery right',
 	),
 	array(
 		'block' => 'core/group',

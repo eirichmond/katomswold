@@ -14,21 +14,10 @@ Text Domain: katomswold
 Tags: 
 */
 
-/* Mobile overrides */
-/* @media (max-width: 480px) {
-    footer.wp-block-template-part {
-        .wp-block-group {
-            .wp-block-columns {
-                .wp-block-column:is(:first-child) {
-                    display: none !important;
-                }
-                .wp-block-column {
-                    .wp-block-group:is(:last-child) {
-                        align-items: center;
-                    }
-                }
-            }
-        }
-    }
-} */
-
+footer a:visited,
+footer a:hover,
+footer a:active,
+footer a:link {
+    color: #000;
+    text-decoration: none;
+}
