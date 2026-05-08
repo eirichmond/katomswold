@@ -11,11 +11,11 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%","className":"is-style-hide-column-mobile"} -->
 <div class="wp-block-column is-style-hide-column-mobile" style="flex-basis:50%"><!-- wp:group {"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-center-mobile"} -->
-<figure class="wp-block-image size-full is-style-center-mobile"><img src="https://kateandtomsblocks.test/wp-content/themes/katomswold/assets/images/katandtoms-trans-1.jpg" alt=""/></figure>
+<figure class="wp-block-image size-full is-style-center-mobile"><img src="/wp-content/themes/katomswold/assets/images/katandtoms-trans-1.jpg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-hide-mobile","style":{"color":{"duotone":"unset"}}} -->
-<figure class="wp-block-image size-full is-style-hide-mobile"><img src="https://kateandtomsblocks.test/wp-content/themes/katomswold/assets/images/extstrap.jpg" alt=""/></figure>
+<figure class="wp-block-image size-full is-style-hide-mobile"><img src="/wp-content/themes/katomswold/assets/images/extstrap.jpg" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
