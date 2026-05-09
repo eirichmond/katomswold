@@ -39,12 +39,12 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"x-large"} -->
-<h2 class="wp-block-heading alignwide has-white-color has-text-color has-link-color has-x-large-font-size" style="margin-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:300">TitleTitleTitle</h2>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"align":"wide","className":"is-style-center-heading-mobile","style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"x-large"} -->
+<h2 class="wp-block-heading alignwide is-style-center-heading-mobile has-white-color has-text-color has-link-color has-x-large-font-size" style="margin-bottom:var(--wp--preset--spacing--30);font-style:normal;font-weight:300">TitleTitleTitle</h2>
 <!-- /wp:heading -->
 
-<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"medium"} -->
-<h3 class="wp-block-heading has-white-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:300">subtitlesubtitlesubtitle</h3>
+<!-- wp:heading {"level":3,"className":"is-style-center-heading-mobile","style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"medium"} -->
+<h3 class="wp-block-heading is-style-center-heading-mobile has-white-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:300">subtitlesubtitlesubtitle</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"small"} -->
