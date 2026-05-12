@@ -5,7 +5,10 @@ header nav.wp-block-navigation .wp-block-navigation__submenu-container {
     background-color: var(--wp--preset--color--white);
     color: var(--wp--preset--color--charcoal);
 }
-
+.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container, .wp-block-navigation .has-child:not(.open-on-click):hover > .wp-block-navigation__submenu-container, .wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within > .wp-block-navigation__submenu-container {
+    max-height: 400px !important;
+    height: auto !important;
+}
 header nav.wp-block-navigation #modal-2-content ul li .wp-block-navigation-submenu {
     background-color: var(--wp--preset--color--white);
     color: var(--wp--preset--color--charcoal);
