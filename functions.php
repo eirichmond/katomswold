@@ -168,6 +168,11 @@ $custom_block_styles = array(
 		'label' => 'Hide on mobile',
 	),
 	array(
+		'block' => 'core/group',
+		'name'  => 'matrix-cards-five',
+		'label' => 'Matrix Cards Five',
+	),
+	array(
 		'block' => 'core/image',
 		'name'  => 'center-mobile',
 		'label' => 'Center on mobile',
