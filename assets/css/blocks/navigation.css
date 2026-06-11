@@ -162,3 +162,8 @@ footer .wp-block-navigation {
 .wp-block-navigation__responsive-container-open.is-active .burger-icon span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+.wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay)
+.wp-block-navigation__responsive-container-content {
+    padding-top: 0px;
+}

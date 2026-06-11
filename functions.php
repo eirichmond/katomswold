@@ -133,6 +133,11 @@ $custom_block_styles = array(
 		'label' => 'Hide on mobile',
 	),
 	array(
+		'block' => 'core/column',
+		'name'  => 'center-column-mobile',
+		'label' => 'Center on mobile',
+	),
+	array(
 		'block' => 'core/group',
 		'name'  => 'house-title-banner',
 		'label' => 'House Title Banner',
