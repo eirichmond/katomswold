@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30"}}},"fontSize":"x-small"} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"fontSize":"x-small"} -->
 <div class="wp-block-buttons has-custom-font-size has-x-small-font-size"><!-- wp:button {"backgroundColor":"colorfive","fontSize":"small","showForm":true} -->
 <div class="wp-block-button"><a class="wp-block-button__link has-colorfive-background-color has-background has-small-font-size has-custom-font-size wp-element-button" href="#enquire">Enquire</a></div>
 <!-- /wp:button -->
