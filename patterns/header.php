@@ -11,9 +11,9 @@
 <figure class="wp-block-image size-full is-resized"><a href="/"><img src="/wp-content/themes/katomswold/assets/images/kateandtomswo.png" alt="kate &amp; tom's" style="width:155px;height:auto"/></a></figure>
 <!-- /wp:image -->
 
-<!-- wp:navigation {"ref":124609,"textColor":"white","icon":"menu","className":"is-style-hide-navigation-mobile","style":{"spacing":{"margin":{"top":"0"}},"typography":{"textTransform":"uppercase"}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"horizontal"}} /-->
+<!-- wp:navigation {"ref":145316,"textColor":"white","icon":"menu","className":"is-style-hide-navigation-mobile","style":{"spacing":{"margin":{"top":"0"}},"typography":{"textTransform":"uppercase"}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"horizontal"}} /-->
 
-<!-- wp:navigation {"ref":124612,"textColor":"white","icon":"menu","overlayBackgroundColor":"white","overlayTextColor":"charcoal","className":"is-style-hide-navigation-desktop"} /--></div>
+<!-- wp:navigation {"ref":145319,"textColor":"white","icon":"menu","overlayBackgroundColor":"white","overlayTextColor":"charcoal","className":"is-style-hide-navigation-desktop"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -23,6 +23,6 @@
 <figure class="wp-block-image size-full"><img src="/wp-content/themes/katomswold/assets/images/site-logo-11.png" alt="kate &amp; tom's"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:navigation {"ref":124610,"className":"is-style-hide-navigation-mobile","style":{"typography":{"textTransform":"uppercase"}}} /--></div>
+<!-- wp:navigation {"ref":145317,"className":"is-style-hide-navigation-mobile","style":{"typography":{"textTransform":"uppercase"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

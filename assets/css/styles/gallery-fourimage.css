@@ -1,7 +1,7 @@
 @media ( max-width:782px ) {
     .is-style-gallery-fourimage {
         .wp-block-columns {
-            .wp-block-column:is(:nth-child(1), :nth-child(2), :nth-child(4)) {
+            .wp-block-column {
                 display: none;
             }
             .wp-block-column {

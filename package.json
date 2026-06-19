@@ -1,0 +1,8 @@
+{
+  "name": "katomswold",
+  "version": "1.0.0",
+  "description": "Kate and Tom's block theme",
+  "scripts": {
+    "zip": "cd .. && zip -r katomswold/katomswold.zip katomswold -x '*.git*' -x '*/node_modules/*' -x '*/.DS_Store' -x '*/katomswold.zip' -x '*.backup'"
+  }
+}
