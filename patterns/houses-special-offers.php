@@ -17,23 +17,15 @@
 
 
 
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:kate-toms-core/kateandtoms-special-offer-house {"selectedPostId":0000,"offer":"offer-details-col-one","offerDate":"offer-date-one"} /--></div>
-<!-- /wp:column -->
+<!-- wp:kate-toms-core/special-offers-grid {"align":"wide"} -->
+<div class="wp-block-kate-toms-core-special-offers-grid alignwide"><!-- wp:kate-toms-core/kateandtoms-special-offer-house /-->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:kate-toms-core/kateandtoms-special-offer-house {"selectedPostId":00000,"offer":"offer-details-col-two","offerDate":"offer-date-two"} /--></div>
-<!-- /wp:column -->
+<!-- wp:kate-toms-core/kateandtoms-special-offer-house /-->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:kate-toms-core/kateandtoms-special-offer-house {"selectedPostId":000000,"offer":"offer-details-col-three","offerDate":"offer-date-three"} /--></div>
-<!-- /wp:column -->
+<!-- wp:kate-toms-core/kateandtoms-special-offer-house /-->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:kate-toms-core/kateandtoms-special-offer-house {"selectedPostId":0000000,"offer":"offer-details-col-four","offerDate":"offer-date-four"} /--></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- wp:kate-toms-core/kateandtoms-special-offer-house /--></div>
+<!-- /wp:kate-toms-core/special-offers-grid -->
 
 
 
