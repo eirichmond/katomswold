@@ -1,0 +1,5 @@
+@media (max-width: 782px) {
+    h1.is-style-center-post-title-mobile {
+        text-align: center;
+    }
+}

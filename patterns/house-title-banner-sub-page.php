@@ -9,8 +9,8 @@
 <!-- wp:group {"className":"is-style-house-title-banner-sub-page","metadata":{"categories":["banner"],"patternName":"katomswold/house-title-banner-sub-page","name":"House Title Banner Sub Page"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-white-background-color has-background is-style-house-title-banner-sub-page" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|linkvisit"}}}},"textColor":"linkvisit","fontSize":"x-large"} -->
-<h1 class="wp-block-heading has-linkvisit-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:300"><a href="/houses/{perma}/">{housetitle}</a></h1>
+<div class="wp-block-group"><!-- wp:heading {"level":1,"className":"is-style-center-heading-mobile","style":{"typography":{"fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|linkvisit"}}}},"textColor":"linkvisit","fontSize":"x-large"} -->
+<h1 class="wp-block-heading is-style-center-heading-mobile has-linkvisit-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:300"><a href="/houses/{perma}/">{housetitle}</a></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
@@ -47,7 +47,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}},"textColor":"charcoal","fontSize":"small"} -->
-<p class="has-charcoal-color has-text-color has-link-color has-small-font-size"><a href="/houses/{perma}/gallery">GALLERY</a></p>
+<p class="has-charcoal-color has-text-color has-link-color has-small-font-size"><a href="/houses/{perma}/gallery/">GALLERY</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}},"textColor":"charcoal","fontSize":"small"} -->

@@ -113,6 +113,11 @@ $custom_block_styles = array(
 		'label' => 'Center on mobile',
 	),
 	array(
+		'block' => 'core/post-title',
+		'name'  => 'center-post-title-mobile',
+		'label' => 'Center on mobile',
+	),
+	array(
 		'block' => 'core/heading',
 		'name'  => 'center-heading-mobile',
 		'label' => 'Center on mobile',
