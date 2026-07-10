@@ -119,6 +119,11 @@ $custom_block_styles = array(
 	),
 	array(
 		'block' => 'core/heading',
+		'name'  => 'hidden-all-devices',
+		'label' => 'SEO hidden',
+	),
+	array(
+		'block' => 'core/heading',
 		'name'  => 'center-heading-mobile',
 		'label' => 'Center on mobile',
 	),
