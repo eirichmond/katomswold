@@ -1,7 +1,8 @@
 @media ( max-width:782px ) {
     .is-style-gallery-fourimage {
+        padding: 0 !important;
         .wp-block-columns {
-            .wp-block-column {
+            .wp-block-column:not(:nth-child(3)) {
                 display: none;
             }
             .wp-block-column {
