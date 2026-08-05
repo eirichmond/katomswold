@@ -1,0 +1,48 @@
+/**
+ * Blog feature grid (used by templates/index.html)
+ *
+ * The post template is a core grid layout with columnCount 4, which core outputs as
+ * `grid-template-columns: repeat(4, minmax(0, 1fr))` on a single generated class.
+ * We re-base the grid on 12 columns so the first two posts can take a 66% / 33% split
+ * (8 + 4 columns) while every subsequent post keeps 4 per row (3 columns each).
+ *
+ * The two class selector beats core's single generated layout class, so no !important
+ * is needed regardless of stylesheet order.
+ */
+.wp-block-post-template.blog-feature-grid.is-layout-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.wp-block-post-template.blog-feature-grid.is-layout-grid > li {
+    grid-column: span 3;
+}
+
+.wp-block-post-template.blog-feature-grid.is-layout-grid > li:first-child {
+    grid-column: span 8;
+}
+
+.wp-block-post-template.blog-feature-grid.is-layout-grid > li:nth-child(2) {
+    grid-column: span 4;
+}
+
+.wp-block-post-template.blog-feature-grid.is-layout-grid > li .wp-block-post-featured-image :where(img) {
+    min-height: 195px;
+}
+
+@media (min-width: 782px) {
+    .wp-block-post-template.blog-feature-grid.is-layout-grid > li:nth-child(2) .wp-block-post-featured-image :where(img) {
+        min-height: 392px;
+    }
+}
+/** Mobile: single column, no feature treatment */
+@media (max-width: 782px) {
+    .wp-block-post-template.blog-feature-grid.is-layout-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .wp-block-post-template.blog-feature-grid.is-layout-grid > li,
+    .wp-block-post-template.blog-feature-grid.is-layout-grid > li:first-child,
+    .wp-block-post-template.blog-feature-grid.is-layout-grid > li:nth-child(2) {
+        grid-column: span 1;
+    }
+}
