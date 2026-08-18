@@ -47,6 +47,10 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}},"textColor":"charcoal","fontSize":"small"} -->
+<p class="has-charcoal-color has-text-color has-link-color has-small-font-size"><a href="/houses/{perma}/gallery/#vr-tour">VR TOUR</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}},"textColor":"charcoal","fontSize":"small"} -->
 <p class="has-charcoal-color has-text-color has-link-color has-small-font-size"><a href="/houses/{perma}/gallery/">GALLERY</a></p>
 <!-- /wp:paragraph -->
 
