@@ -1,0 +1,36 @@
+/**
+ * core/table extensions.
+ *
+ * Auto-enqueued for core/table by Extend_Block_Assets (file name = block name).
+ */
+
+/**
+ * Bedroom table column widths.
+ *
+ * Applied by the House Blueprint generator as a plain utility class rather than
+ * an `is-style-*` block style: the bedroom table already uses `is-style-stripes`,
+ * and WordPress swaps the whole `is-style-*` class when an editor picks a
+ * different style. A utility class survives that, so the widths stick.
+ *
+ * Widths mirror the legacy HTML house template: 25 / 15 / 30 / 30.
+ */
+.wp-block-table.kt-bedroom-table table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.wp-block-table.kt-bedroom-table tr > :nth-child(1) {
+	width: 25%;
+}
+
+.wp-block-table.kt-bedroom-table tr > :nth-child(2) {
+	width: 15%;
+}
+
+.wp-block-table.kt-bedroom-table tr > :nth-child(3) {
+	width: 30%;
+}
+
+.wp-block-table.kt-bedroom-table tr > :nth-child(4) {
+	width: 30%;
+}

@@ -188,6 +188,11 @@ $custom_block_styles = array(
 		'label' => 'Matrix Cards Five',
 	),
 	array(
+		'block' => 'core/buttons',
+		'name'  => 'stack-buttons-mobile',
+		'label' => 'Stack on mobile',
+	),
+	array(
 		'block' => 'core/image',
 		'name'  => 'center-mobile',
 		'label' => 'Center on mobile',
