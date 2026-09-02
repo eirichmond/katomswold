@@ -32,8 +32,8 @@
 <!-- wp:social-link {"url":"https://www.linkedin.com/company/kate-and-toms","service":"linkedin"} /--></ul>
 <!-- /wp:social-links -->
 
-<!-- wp:kate-toms-core/kateandtoms-trustpilot {"widgetType":"micro-star"} -->
-<div class="wp-block-kate-toms-core-kateandtoms-trustpilot"><div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b732fbfb950b10de65e5" data-businessunit-id="5cd41de1c4dd7a0001be3a14" data-style-height="24px" data-style-width="100%" data-theme="dark"><a href="https://uk.trustpilot.com/review/www.kateandtoms.com" target="_blank" rel="noopener noreferrer">Trustpilot</a></div></div>
+<!-- wp:kate-toms-core/kateandtoms-trustpilot {"theme":"dark"} -->
+<div class="wp-block-kate-toms-core-kateandtoms-trustpilot"><div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5cd41de1c4dd7a0001be3a14" data-style-height="20px" data-style-width="100%" data-theme="dark"><a href="https://uk.trustpilot.com/review/www.kateandtoms.com" target="_blank" rel="noopener noreferrer">Trustpilot</a></div></div>
 <!-- /wp:kate-toms-core/kateandtoms-trustpilot --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
