@@ -57,6 +57,86 @@ add_action( 'init', 'katomswold_enqueue_custom_block_styles' );
 add_image_size( 'square', 280, 280, true );
 
 /**
+ * Mark images inside the gallery widget groups (four image, gallery left, gallery right).
+ *
+ * These images sit in fixed square tiles (280x280, object-fit: cover). Core gives lazy images
+ * sizes="auto", so the browser picks a file as wide as the 280px box, then cover scales that file
+ * up to fill the box height and the photo goes soft on 1x screens (#497). The marker lets
+ * katomswold_gallery_tile_image_sizes() fix the sizes once core has added srcset.
+ *
+ * Runs at render time, so it covers every existing house without re-saving content.
+ *
+ * @param string $block_content Rendered group block.
+ * @param array  $block         Parsed block.
+ * @return string
+ */
+function katomswold_mark_gallery_tile_images( $block_content, $block ) {
+	$class_name = $block['attrs']['className'] ?? '';
+
+	if ( ! preg_match( '/\bis-style-gallery-(fourimage|left|right)\b/', $class_name ) ) {
+		return $block_content;
+	}
+
+	$processor = new WP_HTML_Tag_Processor( $block_content );
+	while ( $processor->next_tag( 'img' ) ) {
+		$processor->set_attribute( 'data-kt-gallery-tile', '1' );
+	}
+
+	return $processor->get_updated_html();
+}
+add_filter( 'render_block_core/group', 'katomswold_mark_gallery_tile_images', 10, 2 );
+
+/**
+ * Give gallery tile images a sizes value that matches what object-fit: cover actually needs.
+ *
+ * A landscape photo covering a 280px square has to be drawn 280px tall, so it needs a file
+ * 280 x aspect ratio wide (420px for a 3:2 photo), not 280px. On mobile the tiles can stretch
+ * to the column width, so 100vw is used there, never dropping below the cover width.
+ *
+ * Hooked to wp_content_img_tag, which runs after core adds srcset, sizes and "auto". Block
+ * templates run the content filters twice (post content, then the whole template) and core
+ * re-adds "auto" on the second pass, so the marker stays on the img to fix it every time.
+ *
+ * @param string $image Full img tag.
+ * @return string
+ */
+function katomswold_gallery_tile_image_sizes( $image ) {
+	if ( ! str_contains( $image, 'data-kt-gallery-tile' ) ) {
+		return $image;
+	}
+
+	$processor = new WP_HTML_Tag_Processor( $image );
+	if ( ! $processor->next_tag( 'img' ) ) {
+		return $image;
+	}
+
+	$width  = (int) $processor->get_attribute( 'width' );
+	$height = (int) $processor->get_attribute( 'height' );
+
+	if ( $width > 0 && $height > 0 && $processor->get_attribute( 'srcset' ) ) {
+		// Tile dimensions come from the block's inline style; the patterns use 280x280.
+		$style  = (string) $processor->get_attribute( 'style' );
+		$tile_w = preg_match( '/(?:^|;)\s*width:\s*(\d+)px/', $style, $m ) ? (int) $m[1] : 280;
+		$tile_h = preg_match( '/(?:^|;)\s*height:\s*(\d+)px/', $style, $m ) ? (int) $m[1] : 280;
+
+		// Width the photo is drawn at to cover the tile.
+		$cover_w = (int) ceil( max( $tile_w, $tile_h * $width / $height ) );
+
+		if ( $cover_w >= 782 ) {
+			$sizes = sprintf( '%dpx', $cover_w );
+		} else {
+			$sizes = sprintf( '(max-width: %1$dpx) %1$dpx, (max-width: 782px) 100vw, %1$dpx', $cover_w );
+		}
+
+		// No "auto": with auto the browser uses the 280px layout box and ignores the rest.
+		$processor->set_attribute( 'sizes', $sizes );
+	}
+
+	return $processor->get_updated_html();
+}
+add_filter( 'wp_content_img_tag', 'katomswold_gallery_tile_image_sizes' );
+
+/**
  * Add theme support for block templates and template parts
  */
 function katomswold_theme_support() {
