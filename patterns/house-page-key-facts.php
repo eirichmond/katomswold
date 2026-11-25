@@ -510,16 +510,6 @@
 <ul class="wp-block-list"><!-- wp:list-item -->
 <li>£1,000 refundable deposit</li>
 <!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p><strong>Virtual Tour</strong></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>With a few clicks you can be leisurely making your way through living rooms, bedrooms, dining rooms, kitchens and bathrooms – the whole house in all its beauty waiting for you to step on in for an effortless and insightful virtual tour.</li>
-<!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
