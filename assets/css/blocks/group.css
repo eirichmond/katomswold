@@ -10,3 +10,23 @@
     object-fit: cover !important;
     object-position: center center !important;
 }
+
+/*
+ * Availability page, Calendar Booking Setup section (#488).
+ *
+ * Links in the intro paragraph(s) above the calendar ("call us… or email
+ * hello@…") show in the brand red and bold, without editors styling them.
+ *
+ * - .kt-calendar-booking-setup is on the group in the
+ *   katomswold/house-page-availability pattern, for new Blueprint houses.
+ * - The :has() selector matches the same group as it is already saved on
+ *   existing houses (no class there): the group whose direct child is the
+ *   house calendar block. Scoped to paragraphs that are direct children, so
+ *   the title banner, the calendar's own controls and related houses are
+ *   unaffected.
+ */
+.wp-block-group.kt-calendar-booking-setup > p a,
+.wp-block-group:has(> .wp-block-kate-toms-core-house-calendar-availability) > p a {
+	color: var(--wp--preset--color--primary);
+	font-weight: 700;
+}

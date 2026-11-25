@@ -66,8 +66,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"categories":["calendar-booking"],"patternName":"kate-toms-core/calendar-booking-setup","name":"Calendar Booking Setup"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"300","textAlign":"center"}},"fontSize":"x-large","anchor":"h-select-a-date-to-book-your-stay"} -->
+<!-- wp:group {"metadata":{"categories":["calendar-booking"],"patternName":"kate-toms-core/calendar-booking-setup","name":"Calendar Booking Setup"},"align":"full","className":"kt-calendar-booking-setup","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull kt-calendar-booking-setup" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"align":"wide","style":{"typography":{"fontStyle":"normal","fontWeight":"300","textAlign":"center"}},"fontSize":"x-large","anchor":"h-select-a-date-to-book-your-stay"} -->
 <h2 class="wp-block-heading has-text-align-center alignwide has-x-large-font-size" id="h-select-a-date-to-book-your-stay" style="font-style:normal;font-weight:300">Select a date to book your stay</h2>
 <!-- /wp:heading -->
 
